@@ -1,9 +1,8 @@
-﻿using Hometask4.BLL.DTO;
+﻿using Hometask4.BLL.Models;
+using Hometask4.BLL.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Hometask4.WebApi.Controllers
 {
@@ -11,11 +10,6 @@ namespace Hometask4.WebApi.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
@@ -24,16 +18,9 @@ namespace Hometask4.WebApi.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecastDto> Get()
+        public IEnumerable<WeatherForecastModel> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecastDto
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+            return WeatherForecastService.GetRandomWeatherForecast();
         }
     }
 }

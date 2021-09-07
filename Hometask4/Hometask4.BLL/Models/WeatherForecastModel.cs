@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Hometask4.BLL.DTO
+namespace Hometask4.BLL.Models
 {
-    public class WeatherForecastDto
+    public class WeatherForecastModel
     {
         public DateTime Date { get; set; }
 
