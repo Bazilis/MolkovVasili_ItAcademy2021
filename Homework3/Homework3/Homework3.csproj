@@ -9,7 +9,7 @@
     <!-- Статьи, которые могут помочь: -->
     <!-- https://blog.submain.com/c-documentation-start-finish-guide/ -->
     <!-- https://makolyte.com/how-to-generate-xml-documentation-and-include-it-in-a-nuget-package/ -->
-    <DocumentationFile>D:\Documents\MolkovVasili_ItAcademy2021\Homework3\Homework3\Homework3.xml</DocumentationFile>
+    <DocumentationFile>..\Homework3\Homework3.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
