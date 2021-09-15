@@ -3,6 +3,7 @@ using Hometask5.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
+using Hometask5.DAL.Repositories;
 using Xunit;
 
 namespace Hometask5.Tests.DAL
@@ -61,6 +62,75 @@ namespace Hometask5.Tests.DAL
                 Assert.Equal("Bob", users[0].Name);
                 Assert.Equal("John", users[1].Name);
             }
+        }
+
+        [Fact]
+        public void CreateEntityRepositoryTestMethod()
+        {
+            var companyRepo = new CompanyRepository(new ApplicationDbContext(DbContextOptions));
+            var userRepo = new UserRepository(new ApplicationDbContext(DbContextOptions));
+
+            var newCompany = new CompanyEntity() { Name = "EPAM" };
+            var newUser = new UserEntity() { Name = "Vasili" };
+
+            companyRepo.Create(newCompany);
+            userRepo.Create(newUser);
+
+            var createdCompanyFromDb = companyRepo.GetById(newCompany.Id);
+            var createdUserFromDb = userRepo.GetById(newUser.Id);
+
+
+            Assert.Equal("EPAM", createdCompanyFromDb.Name);
+            Assert.Equal("Vasili", createdUserFromDb.Name);
+        }
+
+        [Fact]
+        public void UpdateEntityRepositoryTestMethod()
+        {
+            var companyRepo = new CompanyRepository(new ApplicationDbContext(DbContextOptions));
+            var userRepo = new UserRepository(new ApplicationDbContext(DbContextOptions));
+
+            var newCompany = new CompanyEntity() { Name = "Microsoft" };
+            var newUser = new UserEntity() { Name = "Bill" };
+
+            var createdCompany = companyRepo.Create(newCompany);
+            var createdUser = userRepo.Create(newUser);
+
+            createdCompany.Name = "Apple";
+            createdUser.Name = "Tim";
+
+            companyRepo.Update(createdCompany);
+            userRepo.Update(createdUser);
+
+            var updatedCompanyFromDb = companyRepo.GetById(createdCompany.Id);
+            var updatedUserFromDb = userRepo.GetById(createdUser.Id);
+
+
+            Assert.Equal("Apple", updatedCompanyFromDb.Name);
+            Assert.Equal("Tim", updatedUserFromDb.Name);
+        }
+
+        [Fact]
+        public void DeleteEntityRepositoryTestMethod()
+        {
+            var companyRepo = new CompanyRepository(new ApplicationDbContext(DbContextOptions));
+            var userRepo = new UserRepository(new ApplicationDbContext(DbContextOptions));
+
+            var newCompany = new CompanyEntity() { Name = "SpaceX" };
+            var newUser = new UserEntity() { Name = "Elon" };
+
+            var createdCompany = companyRepo.Create(newCompany);
+            var createdUser = userRepo.Create(newUser);
+
+            companyRepo.Delete(createdCompany);
+            userRepo.Delete(createdUser);
+
+            var deletedCompanyFromDb = companyRepo.GetById(createdCompany.Id);
+            var deletedUserFromDb = userRepo.GetById(createdUser.Id);
+
+
+            Assert.Null(deletedCompanyFromDb);
+            Assert.Null(deletedUserFromDb);
         }
     }
 }
