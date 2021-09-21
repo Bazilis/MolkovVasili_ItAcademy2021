@@ -1,12 +1,92 @@
-﻿using System;
+﻿using ControlWorkApp.BLL.DTO;
+using ControlWorkApp.BLL.Interfaces;
+using ControlWorkApp.DAL.Entities;
+using ControlWorkApp.DAL.Interfaces;
+using FluentValidation;
+using Mapster;
+using Serilog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ControlWorkApp.BLL.Services
 {
-    class ProductService
+    public class ProductService : IService<ProductDto>
     {
+        private readonly IRepository<ProductEntity> _productRepository;
+        private readonly IValidator<ProductDto> _productValidator;
+        private readonly ILogger _productLogger;
+
+        public ProductService(IRepository<ProductEntity> productRepository, IValidator<ProductDto> productValidator, ILogger productLogger)
+        {
+            _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
+
+            _productValidator = productValidator ?? throw new ArgumentNullException(nameof(productValidator));
+
+            _productLogger = productLogger ?? throw new ArgumentNullException(nameof(productLogger));
+        }
+
+        public ProductDto GetById(int itemId)
+        {
+            ProductEntity productEntityResult = _productRepository.GetById(itemId);
+
+            ProductDto productDtoResult = productEntityResult.Adapt<ProductDto>();
+
+            return productDtoResult;
+        }
+
+        public List<ProductDto> GetAll()
+        {
+            List<ProductEntity> existProductsEntities = _productRepository.GetAll().ToList();
+
+            List<ProductDto> existProductsDtos = existProductsEntities.Adapt<List<ProductDto>>();
+
+            return existProductsDtos;
+        }
+
+        public ProductDto Create(ProductDto item)
+        {
+            var validationResult = _productValidator.Validate(item);
+
+            if (!validationResult.IsValid)
+            {
+                throw new ValidationException("Invalid product for create");
+            }
+
+            ProductEntity productEntityForCreate = item.Adapt<ProductEntity>();
+
+            ProductEntity productEntityResult = _productRepository.Create(productEntityForCreate);
+
+            item.Id = productEntityResult.Id;
+
+            _productLogger.Information($"Create product {item.Name} in DB");
+
+            return item;
+        }
+
+        public void Update(ProductDto item)
+        {
+            var validationResult = _productValidator.Validate(item);
+
+            if (!validationResult.IsValid)
+            {
+                throw new ValidationException("Invalid product for update");
+            }
+            
+            ProductEntity productEntityForUpdate = item.Adapt<ProductEntity>();
+
+            _productRepository.Update(productEntityForUpdate);
+
+            _productLogger.Information($"Update product {item.Name} in DB");
+        }
+
+        public void Delete(ProductDto item)
+        {
+            ProductEntity productEntityForDelete = item.Adapt<ProductEntity>();
+
+            _productRepository.Delete(productEntityForDelete);
+
+            _productLogger.Information($"Delete product {item.Name} in DB");
+        }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace ControlWorkApp.DAL.Entities
+﻿namespace ControlWorkApp.BLL.DTO
 {
-    public class ProductEntity
+    public class ProductDto
     {
         public int Id { get; set; }
 

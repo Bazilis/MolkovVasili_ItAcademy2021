@@ -1,0 +1,772 @@
+2021-09-20 01:23:20.249 +03:00 [INF] Starting web host
+2021-09-20 01:23:21.307 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-20 01:23:21.314 +03:00 [INF] Hosting environment: Development
+2021-09-20 01:23:21.315 +03:00 [INF] Content root path: D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi
+2021-09-20 01:23:21.329 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger - -
+2021-09-20 01:23:21.388 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger - - - 301 - - 61.5749ms
+2021-09-20 01:23:21.388 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/index.html - -
+2021-09-20 01:23:21.486 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/index.html - - - 200 - text/html;charset=utf-8 97.3040ms
+2021-09-20 01:23:21.521 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/swagger-ui.css - -
+2021-09-20 01:23:21.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/swagger-ui-bundle.js - -
+2021-09-20 01:23:21.528 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/swagger-ui-standalone-preset.js - -
+2021-09-20 01:23:21.586 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-09-20 01:23:21.586 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-09-20 01:23:21.586 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-09-20 01:23:21.593 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/swagger-ui.css - - - 200 142933 text/css 71.7908ms
+2021-09-20 01:23:21.593 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 64.3819ms
+2021-09-20 01:23:21.605 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 82.8896ms
+2021-09-20 01:23:22.054 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/favicon-16x16.png - -
+2021-09-20 01:23:22.056 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2021-09-20 01:23:22.057 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/favicon-16x16.png - - - 200 665 image/png 3.9155ms
+2021-09-20 01:23:22.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/v1/swagger.json - -
+2021-09-20 01:23:22.213 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.2611ms
+2021-09-20 01:23:27.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/WeatherForecast - -
+2021-09-20 01:23:27.995 +03:00 [INF] Executing endpoint 'ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi)'
+2021-09-20 01:23:28.012 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ControlWorkApp.WebApi.WeatherForecast] Get() on controller ControlWorkApp.WebApi.Controllers.WeatherForecastController (ControlWorkApp.WebApi).
+2021-09-20 01:23:28.014 +03:00 [INF] Hello, world!
+2021-09-20 01:23:28.017 +03:00 [INF] Executing ObjectResult, writing value of type 'ControlWorkApp.WebApi.WeatherForecast[]'.
+2021-09-20 01:23:28.034 +03:00 [INF] Executed action ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi) in 17.4676ms
+2021-09-20 01:23:28.035 +03:00 [INF] Executed endpoint 'ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi)'
+2021-09-20 01:23:28.036 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 63.6414 ms
+2021-09-20 01:23:28.036 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/WeatherForecast - - - 200 - application/json;+charset=utf-8 66.4250ms
+2021-09-20 01:28:07.825 +03:00 [INF] Starting web host
+2021-09-20 01:28:08.651 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-20 01:28:08.660 +03:00 [INF] Hosting environment: Development
+2021-09-20 01:28:08.662 +03:00 [INF] Content root path: D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi
+2021-09-20 01:28:08.673 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/index.html - -
+2021-09-20 01:28:08.795 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/index.html - - - 200 - text/html;charset=utf-8 123.6575ms
+2021-09-20 01:28:09.364 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/v1/swagger.json - -
+2021-09-20 01:28:09.453 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.8787ms
+2021-09-20 01:28:13.285 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/WeatherForecast - -
+2021-09-20 01:28:13.315 +03:00 [INF] Executing endpoint 'ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi)'
+2021-09-20 01:28:13.341 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ControlWorkApp.WebApi.WeatherForecast] Get() on controller ControlWorkApp.WebApi.Controllers.WeatherForecastController (ControlWorkApp.WebApi).
+2021-09-20 01:28:13.345 +03:00 [INF] Hello, world!
+2021-09-20 01:28:13.354 +03:00 [INF] Executing ObjectResult, writing value of type 'ControlWorkApp.WebApi.WeatherForecast[]'.
+2021-09-20 01:28:13.373 +03:00 [INF] Executed action ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi) in 25.5757ms
+2021-09-20 01:28:13.376 +03:00 [INF] Executed endpoint 'ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi)'
+2021-09-20 01:28:13.379 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 86.0056 ms
+2021-09-20 01:28:13.382 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/WeatherForecast - - - 200 - application/json;+charset=utf-8 97.6869ms
+2021-09-20 01:29:03.750 +03:00 [INF] Starting web host
+2021-09-20 01:29:04.571 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-20 01:29:04.577 +03:00 [INF] Hosting environment: Development
+2021-09-20 01:29:04.578 +03:00 [INF] Content root path: D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi
+2021-09-20 01:29:04.589 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/index.html - -
+2021-09-20 01:29:04.716 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/index.html - - - 200 - text/html;charset=utf-8 128.1026ms
+2021-09-20 01:29:05.254 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/swagger/v1/swagger.json - -
+2021-09-20 01:29:05.341 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.7511ms
+2021-09-20 01:29:08.584 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:46044/WeatherForecast - -
+2021-09-20 01:29:08.611 +03:00 [INF] Executing endpoint 'ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi)'
+2021-09-20 01:29:08.628 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ControlWorkApp.WebApi.WeatherForecast] Get() on controller ControlWorkApp.WebApi.Controllers.WeatherForecastController (ControlWorkApp.WebApi).
+2021-09-20 01:29:08.630 +03:00 [INF] Hello, world!
+2021-09-20 01:29:08.636 +03:00 [INF] Executing ObjectResult, writing value of type 'ControlWorkApp.WebApi.WeatherForecast[]'.
+2021-09-20 01:29:08.652 +03:00 [INF] Executed action ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi) in 19.8936ms
+2021-09-20 01:29:08.654 +03:00 [INF] Executed endpoint 'ControlWorkApp.WebApi.Controllers.WeatherForecastController.Get (ControlWorkApp.WebApi)'
+2021-09-20 01:29:08.655 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 67.4657 ms
+2021-09-20 01:29:08.656 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:46044/WeatherForecast - - - 200 - application/json;+charset=utf-8 72.1152ms
+2021-09-21 04:01:59.385 +03:00 [INF] Starting web host
+2021-09-21 04:02:00.042 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Transient ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Transient ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Transient ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Transient ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Transient ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Transient ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 04:09:21.353 +03:00 [INF] Starting web host
+2021-09-21 04:09:22.041 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 04:12:26.129 +03:00 [INF] Starting web host
+2021-09-21 04:12:26.799 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 04:13:50.849 +03:00 [INF] Starting web host
+2021-09-21 04:13:51.450 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.CustomerService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.OrderService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity]' while attempting to activate 'ControlWorkApp.BLL.Services.ProductService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 05:40:45.948 +03:00 [INF] Starting web host
+2021-09-21 05:40:46.649 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #3) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #4) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #5) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #6) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #7) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #8) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 05:42:55.779 +03:00 [INF] Starting web host
+2021-09-21 05:42:56.441 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #3) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #4) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #5) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 19:34:21.724 +03:00 [INF] Starting web host
+2021-09-21 19:39:55.187 +03:00 [INF] Starting web host
+2021-09-21 19:39:55.751 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #3) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #4) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #5) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 19:41:26.720 +03:00 [INF] Starting web host
+2021-09-21 19:57:03.773 +03:00 [INF] Starting web host
+2021-09-21 19:57:09.209 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #3) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #4) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #5) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-09-21 22:32:58.367 +03:00 [INF] Starting web host
+2021-09-21 22:32:59.041 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.) (Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.CustomerEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.CustomerRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ControlWorkApp.WebApi.Program.Main(String[] args) in D:\Documents\MolkovVasili_ItAcademy2021\ControlWorkApp\ControlWorkApp.WebApi\Program.cs:line 23
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.OrderEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.OrderRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #2) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.DAL.Interfaces.IRepository`1[ControlWorkApp.DAL.Entities.ProductEntity] Lifetime: Scoped ImplementationType: ControlWorkApp.DAL.Repositories.ProductRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #3) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.CustomerDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.CustomerService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.CustomerRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #4) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.OrderDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.OrderService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.OrderRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+ ---> (Inner Exception #5) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: ControlWorkApp.BLL.Interfaces.IService`1[ControlWorkApp.BLL.DTO.ProductDto] Lifetime: Scoped ImplementationType: ControlWorkApp.BLL.Services.ProductService': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'ControlWorkApp.DAL.Repositories.ProductRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
