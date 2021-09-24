@@ -7,12 +7,12 @@ using ControlWorkApp.BLL.Validators;
 using ControlWorkApp.DAL.Entities;
 using ControlWorkApp.DAL.Interfaces;
 using ControlWorkApp.DAL.Repositories;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Serilog;
@@ -31,24 +31,24 @@ namespace ControlWorkApp.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog());
+
+            services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CustomerValidator>());
 
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ControlWorkApp.WebApi", Version = "v1" });
+                c.DescribeAllParametersInCamelCase();
             });
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            // Не работает Dependency Injection, не могу понять почему
-            // Написал интеграционный тест и внедрил все зависимости без DI - все работает
             services.AddScoped<IRepository<CustomerEntity>, CustomerRepository>();
             services.AddScoped<IRepository<OrderEntity>, OrderRepository>();
             services.AddScoped<IRepository<ProductEntity>, ProductRepository>();
-
-            services.AddScoped<CustomerValidator>();
-            services.AddScoped<OrderValidator>();
-            services.AddScoped<ProductValidator>();
 
             services.AddScoped<IService<CustomerDto>, CustomerService>();
             services.AddScoped<IService<OrderDto>, OrderService>();

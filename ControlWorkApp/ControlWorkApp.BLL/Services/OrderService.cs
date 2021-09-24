@@ -4,7 +4,7 @@ using ControlWorkApp.DAL.Entities;
 using ControlWorkApp.DAL.Interfaces;
 using FluentValidation;
 using Mapster;
-using Serilog;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,15 +15,15 @@ namespace ControlWorkApp.BLL.Services
     {
         private readonly IRepository<OrderEntity> _orderRepository;
         private readonly IValidator<OrderDto> _orderValidator;
-        private readonly ILogger _orderLogger;
+        private readonly ILogger<OrderService> _logger;
 
-        public OrderService(IRepository<OrderEntity> orderRepository, IValidator<OrderDto> orderValidator, ILogger orderLogger)
+        public OrderService(IRepository<OrderEntity> orderRepository, IValidator<OrderDto> orderValidator, ILogger<OrderService> logger)
         {
             _orderRepository = orderRepository ?? throw new ArgumentNullException(nameof(orderRepository));
 
             _orderValidator = orderValidator ?? throw new ArgumentNullException(nameof(orderValidator));
 
-            _orderLogger = orderLogger ?? throw new ArgumentNullException(nameof(orderLogger));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public OrderDto GetById(int itemId)
@@ -59,7 +59,7 @@ namespace ControlWorkApp.BLL.Services
 
             item.Id = orderEntityResult.Id;
 
-            _orderLogger.Information($"Create order {item.Name} in DB");
+            _logger.LogInformation($"Create order {item.Name} in DB");
 
             return item;
         }
@@ -77,7 +77,7 @@ namespace ControlWorkApp.BLL.Services
 
             _orderRepository.Update(orderEntityForUpdate);
 
-            _orderLogger.Information($"Update order {item.Name} in DB");
+            _logger.LogInformation($"Update order {item.Name} in DB");
         }
 
         public void Delete(OrderDto item)
@@ -86,7 +86,7 @@ namespace ControlWorkApp.BLL.Services
 
             _orderRepository.Delete(orderEntityForDelete);
 
-            _orderLogger.Information($"Delete order {item.Name} in DB");
+            _logger.LogInformation($"Delete order {item.Name} in DB");
         }
     }
 }

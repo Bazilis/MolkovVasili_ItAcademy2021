@@ -4,7 +4,7 @@ using ControlWorkApp.DAL.Entities;
 using ControlWorkApp.DAL.Interfaces;
 using FluentValidation;
 using Mapster;
-using Serilog;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,15 +15,15 @@ namespace ControlWorkApp.BLL.Services
     {
         private readonly IRepository<ProductEntity> _productRepository;
         private readonly IValidator<ProductDto> _productValidator;
-        private readonly ILogger _productLogger;
+        private readonly ILogger<ProductService> _logger;
 
-        public ProductService(IRepository<ProductEntity> productRepository, IValidator<ProductDto> productValidator, ILogger productLogger)
+        public ProductService(IRepository<ProductEntity> productRepository, IValidator<ProductDto> productValidator, ILogger<ProductService> logger)
         {
             _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
 
             _productValidator = productValidator ?? throw new ArgumentNullException(nameof(productValidator));
 
-            _productLogger = productLogger ?? throw new ArgumentNullException(nameof(productLogger));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public ProductDto GetById(int itemId)
@@ -59,7 +59,7 @@ namespace ControlWorkApp.BLL.Services
 
             item.Id = productEntityResult.Id;
 
-            _productLogger.Information($"Create product {item.Name} in DB");
+            _logger.LogInformation($"Create product {item.Name} in DB");
 
             return item;
         }
@@ -77,7 +77,7 @@ namespace ControlWorkApp.BLL.Services
 
             _productRepository.Update(productEntityForUpdate);
 
-            _productLogger.Information($"Update product {item.Name} in DB");
+            _logger.LogInformation($"Update product {item.Name} in DB");
         }
 
         public void Delete(ProductDto item)
@@ -86,7 +86,7 @@ namespace ControlWorkApp.BLL.Services
 
             _productRepository.Delete(productEntityForDelete);
 
-            _productLogger.Information($"Delete product {item.Name} in DB");
+            _logger.LogInformation($"Delete product {item.Name} in DB");
         }
     }
 }

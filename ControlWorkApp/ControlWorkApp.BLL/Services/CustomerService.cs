@@ -4,7 +4,7 @@ using ControlWorkApp.DAL.Entities;
 using ControlWorkApp.DAL.Interfaces;
 using FluentValidation;
 using Mapster;
-using Serilog;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,15 +15,15 @@ namespace ControlWorkApp.BLL.Services
     {
         private readonly IRepository<CustomerEntity> _customerRepository;
         private readonly IValidator<CustomerDto> _customerValidator;
-        private readonly ILogger _customerLogger;
+        private readonly ILogger<CustomerService> _logger;
 
-        public CustomerService(IRepository<CustomerEntity> customerRepository, IValidator<CustomerDto> customerValidator, ILogger customerLogger)
+        public CustomerService(IRepository<CustomerEntity> customerRepository, IValidator<CustomerDto> customerValidator, ILogger<CustomerService> logger)
         {
             _customerRepository = customerRepository ?? throw new ArgumentNullException(nameof(customerRepository));
 
             _customerValidator = customerValidator ?? throw new ArgumentNullException(nameof(customerValidator));
 
-            _customerLogger = customerLogger ?? throw new ArgumentNullException(nameof(customerLogger));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public CustomerDto GetById(int itemId)
@@ -59,7 +59,7 @@ namespace ControlWorkApp.BLL.Services
 
             item.Id = customerEntityResult.Id;
 
-            _customerLogger.Information($"Create customer {item.Name} in DB");
+            _logger.LogInformation($"Create customer {item.Name} in DB");
 
             return item;
         }
@@ -77,7 +77,7 @@ namespace ControlWorkApp.BLL.Services
 
             _customerRepository.Update(customerEntityForUpdate);
 
-            _customerLogger.Information($"Update customer {item.Name} in DB");
+            _logger.LogInformation($"Update customer {item.Name} in DB");
         }
 
         public void Delete(CustomerDto item)
@@ -86,7 +86,7 @@ namespace ControlWorkApp.BLL.Services
 
             _customerRepository.Delete(customerEntityForDelete);
 
-            _customerLogger.Information($"Delete customer {item.Name} in DB");
+            _logger.LogInformation($"Delete customer {item.Name} in DB");
         }
     }
 }
