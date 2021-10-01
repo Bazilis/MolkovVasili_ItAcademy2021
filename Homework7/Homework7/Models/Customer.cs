@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Serilog;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Homework7.Models
@@ -13,10 +14,12 @@ namespace Homework7.Models
         {
             if (string.IsNullOrEmpty(Name))
             {
+                Log.Warning("Name of company is null or empty");
                 yield return new ValidationResult("Name of company is null or empty", new string[] { nameof(Name) });
             }
             else if (Name.Length < 3 || Name.Length > 30)
             {
+                Log.Warning("Invalid length of customer name");
                 yield return new ValidationResult("Invalid length of customer name", new string[] { nameof(Name) });
             }
         }

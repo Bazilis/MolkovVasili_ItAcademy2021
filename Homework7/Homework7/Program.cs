@@ -3,6 +3,8 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 using System;
+using System.IO;
+using System.Reflection;
 
 namespace Homework7
 {
@@ -10,11 +12,14 @@ namespace Homework7
     {
         public static int Main(string[] args)
         {
+            var logFileName = $"Log_{Assembly.GetExecutingAssembly().GetName().Name}.txt";
+            var logFilePath = Path.Combine(AppContext.BaseDirectory, logFileName);
+
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
                 .Enrich.FromLogContext()
                 .WriteTo.Debug()
-                .WriteTo.File("log.txt", rollingInterval: RollingInterval.Infinite)
+                .WriteTo.File(logFilePath, rollingInterval: RollingInterval.Infinite)
                 .CreateLogger();
 
             try

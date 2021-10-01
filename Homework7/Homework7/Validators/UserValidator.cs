@@ -1,5 +1,9 @@
-﻿using FluentValidation;
+﻿using System.Runtime.CompilerServices;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using FluentValidation.Results;
 using Homework7.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Homework7.Validators
 {
