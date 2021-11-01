@@ -51,10 +51,13 @@ namespace Homework11.Filters
 
             if (jwtToken.Header.Alg == "HS256" && jwtToken.Payload.Iss == myIssuer)
             {
+                // мы не должны тут указывать результат запроса
                 context.Result = new OkResult();
                 return;
             }
 
+            // лучше вызывать исключение AuthenticationException 
+            // https://docs.microsoft.com/en-us/dotnet/api/system.security.authentication.authenticationexception?view=net-5.0
             context.Result = new UnauthorizedResult();
         }
     }
